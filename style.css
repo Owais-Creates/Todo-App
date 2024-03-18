@@ -75,6 +75,10 @@ ul li {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
 }
 
 ul li::before {
